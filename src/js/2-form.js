@@ -33,5 +33,8 @@ FormElem.addEventListener("submit", (e) => {
     } else {
         alert('Fill please all fields');
     }
-    
+    formData = {
+      email: '',
+      message: ''
+    };
 });
