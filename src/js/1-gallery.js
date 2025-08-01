@@ -81,10 +81,6 @@ ulElem.innerHTML = addElements(images);
 
 // open modal
 
-ulElem.addEventListener("click", event => {
-  event.preventDefault();
-});
-
 let gallery = new SimpleLightbox('.gallery-link', {
   captions: true,
   captionsData: 'alt',
